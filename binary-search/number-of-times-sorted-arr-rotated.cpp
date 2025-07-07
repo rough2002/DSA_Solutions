@@ -14,9 +14,9 @@ int findKRotation(vector<int> arr){
      int mid = (l+h)/2;
      // right half sorted
     if (arr[l] <= arr[h]) {
-            if (arr[low] < ans) {
-                ans = low;
-                s = arr[low];
+            if (arr[l] < ans) {
+                ans = l;
+                s = arr[l];
             }
             break;
         }
