@@ -33,6 +33,7 @@ int findRoot(int n,int m) {
 int main() {
 
 
-  
+    cout << findRoot(3,27);
+    cout << findRoot(4,69);
     return 0;
 }
